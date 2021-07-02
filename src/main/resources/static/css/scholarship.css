@@ -1,0 +1,158 @@
+.fieldset-box{
+	margin-top: 20px;
+}
+
+.layui-elem-field legend {
+	padding: 6px 10px;
+	font-size: 28px;
+}
+
+.layui-btn {
+	width: 250px;
+	height: 48px;
+	font-size: 20px;
+}
+
+.text-align {
+	text-align: center;
+}
+
+.legend-background {
+	height: 50px;
+	background: #30B6AA;
+	color: #fff;
+}
+
+.submit-margin {
+	margin-left: -80px;
+}
+
+@media screen and (max-width: 1000px) {
+	.fieldset-box{
+		margin-left:30px;
+		width:900px;
+	}
+	.text-align {
+		text-align: left;
+	}
+	.content {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.layui-elem-field legend {
+		font-size: 60px;
+	}
+	.layui-form-label {
+		font-size: 60px;
+		width: 300px;
+		padding: 9px 0px;
+		text-align: right;
+		line-height: 100px;
+	}
+	.layui-input-inline {
+		
+	}
+	.layui-form-select .layui-input {
+		margin-left: 30px;
+		font-size: 60px;
+		width: 900px;
+		height: 130px;
+	}
+	.layui-form-select .layui-edge {
+		right: 0px;
+	}
+	.layui-form-selected dl {
+		margin-left: 30px;
+		margin-top: 60px;
+		width: 900px;
+		height: 300px;
+	}
+	.layui-form-select dl dd.layui-this {
+		padding-top: 26px;
+		font-height: 20px;
+		font-size: 60px;
+		height: 90px;
+	}
+	.layui-form-select dl dd {
+		padding-top: 26px;
+		font-height: 20px;
+		font-size: 60px;
+		height: 90px;
+	}
+	.layui-form-select {
+		width: 900px;
+	}
+	.layui-form-select .layui-edge {
+		border-width: 20px;
+	}
+	.layui-input, .layui-textarea {
+		font-size: 60px;
+		width: 900px;
+		height: 130px;
+		margin-left: 30px;
+	}
+	.layui-input-block {
+		margin-left: 30px;
+	}
+	.layui-form-item .layui-inline {
+		height: 180px;
+	}
+	.layui-btn {
+		height: 120px;
+		width: 900px;
+		font-size: 50px;
+	}
+	.layui-form-label {
+		display: none;
+	}
+	.layui-form-item .layui-input-inline {
+		width: 324px;
+	}
+	.layui-input-block {
+		width: 900px;
+	}
+	.layui-btn+.layui-btn {
+		margin-left: 250px;
+	}
+	.layui-layer-dialog {
+		margin-top: -100px;
+	}
+	.layui-layer-title {
+		padding: 24px 80px 0 12px !important;
+		font-size: 44px !important;
+		height: 100px !important;
+	}
+	.layui-layer-dialog .layui-layer-content {
+		padding: 75px !important;
+		font-size: 40px !important;
+	}
+	.layui-layer-btn a {
+		height: 60px !important;
+		line-height: 28px !important;
+		margin: 13px 30px 3px !important;
+		padding: 12px 0px !important;
+		width: 93px !important;
+		font-size: 40px !important;
+	}
+	.layui-layer-dialog .layui-layer-content {
+		line-height: 50px !important;
+	}
+	.legend-background {
+		height: 90px;
+		background: #30B6AA;
+		text-align:center;
+		color: #fff;
+	}
+	.submit-margin{
+		margin-left:0px;
+	}
+	.tail{
+		width:900px;
+		padding-left:15px;
+	}
+	.tail p{
+		font-size:40px;
+		font-weight:bold;
+		color:#5da9a4;
+	}
+}

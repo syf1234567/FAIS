@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+.content-image-box{
+    height: 600px;
+    background-image: url(../images/content.png);
+    background-size: 100% 100%;
+}
+.content-title{
+    font-family: "webfont-desc";
+    font-size: 56px;
+    font-weight: lighter;
+    color:rgb(255, 255, 255,0.8);
+    line-height: 200px;
+    text-align: center;
+}
+.text-color-white{
+	color:#fff;
+}
